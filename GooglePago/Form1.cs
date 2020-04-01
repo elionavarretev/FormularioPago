@@ -54,6 +54,7 @@ namespace GooglePago
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Pago());
+            panelIzquiero.Width = 2;
         }
     }
 }
